@@ -1,6 +1,7 @@
 import { HttpClient } from '@angular/common/http';
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit, Output } from '@angular/core';
 import { Chart } from 'chart.js';
+import { BreadCrumbs } from '/BreadCrumbs';
 
 @Component({
   selector: 'pb-homepage',
